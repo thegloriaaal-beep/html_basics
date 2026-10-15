@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link 
+       href="https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Mea+Culpa&display=swap" 
+       rel="stylesheet">
+    <style>
+        /* css  target elements*/
+     p{
+        color:#6aec1e; /* hexa color code */
+         font-family: "Mea Culpa", cursive;
+     }  
+
+     
+     h2{
+        color:#5cd118; /* hexa color code */
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+        
+     }  
+     div{
+        background-color:rgb(41, 141, 207);
+        padding-left: 15px; 
+        padding-right: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        /* padding: 12px 15px; top+bottom,l+r */
+        /* padding:12px 15px 12px 15px; clockwise t-r-b-l */
+        margin: 16px;
+        border: 2px dotted #d1c7cd;
+        width: 50%;
+     }
+
+     #xyz{
+        color:#d1c7cd;
+     }
+     #zzz{
+        color:rgb(204, 29, 29)
+     }
+    </style>
+<!--  -->
+</head>
+
+<body>
+    <div>
+        <!-- inline css not efficient -->
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p id="zzz">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quia iste neque quidem non saepe atque minima laudantium nesciunt quas quasi quam, recusandae esse adipisci quae tenetur eligendi repellat doloribus!
+        Rem voluptate ea minus sit exercitationem qui consequatur odit iure perspiciatis, omnis fugit dolorum quod atque natus iste architecto corrupti sint! Temporibus, illo. Molestias alias labore molestiae nobis harum perferendis!</p>
+
+    </div>
+    <div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur.
+          </p>
+        <div> 
+        <div>
+            <p id="xyz">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit.</p>
+        </div>
+    </div>
+</body>
+</html>
